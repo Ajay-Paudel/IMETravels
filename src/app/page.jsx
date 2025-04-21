@@ -325,8 +325,7 @@ function Page() {
   return (
     <>
       <section
-        className="h-100 bg-contain bg-center flex justify-center items-center relative"
-        style={{ backgroundImage: "url('/Artboard.jpg')" }}
+        className="h-screen bg-cover bg-center flex justify-center items-center bg-[url('/Artboard.jpg')] bg-no-repeat"
       >
         <button className="px-6 py-3 bg-red-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 transition duration-200">
           Book Your Flight Now
@@ -731,8 +730,11 @@ function Page() {
             </div>
           </div>
         </div>
-       
+
       </section>
+
+
+
     </>
   );
 }
